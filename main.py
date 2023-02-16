@@ -159,6 +159,7 @@ def main():
             print("episode:", n, "episode reward:", total_reward, "eps:", epsilon, "avg reward (last 100):", avg_rewards,
                   "episode loss: ", losses)
     print("avg reward for last 100 episodes:", avg_rewards)
+
     make_video(env, TrainNet)
     env.close()
 
